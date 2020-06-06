@@ -1,0 +1,11 @@
+---
+layout:
+---
+
+[
+{% for page in site.pages %}
+    {
+        "title": "{{ page.title }}"
+    },
+{% endfor %}
+]
